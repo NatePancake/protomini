@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'inconswide';
+    src: url(Inconsolata_ExtraExpanded-Bold.woff2) format(truetype);    
+}
+
+@font-face {
+    font-family: 'inconsreg';
+    src: url(Inconsolata_SemiExpanded-Regular.woff2) format(truetype);    
+}
+
+body {
+    background-color: black;
+    padding: 50px;
+}
+
+h1 {
+    font-family: inconswide;
+    color: white;
+}
+
+p {
+    font-family: inconsreg;
+    color: white;
+}
